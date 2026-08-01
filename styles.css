@@ -1,6 +1,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    cursor: url('cursors/R_Normal.cur'), auto;
+}
+
+a, button {
+    cursor: url('cursors/R_Link.cur'), pointer;
+}
+
+textarea, input, select {
+    cursor: url('cursors/R_Text.cur'), text;
 }
 
 .container {
@@ -29,3 +38,4 @@ body {
     max-width: 100%;
     height: 100px;
 }
+
